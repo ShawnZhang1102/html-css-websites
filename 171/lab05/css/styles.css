@@ -1,0 +1,61 @@
+body {
+    background-color: #ADD8E6;
+    color: #333333;
+    font-family: Impact, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    background-color: #AD235D;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.header-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header-subtitle {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.main-content {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #AD235D;
+    color: #333333;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a {
+    color: #333333;
+}
+
+.footer a:hover {
+    color: #FFFFFF;
+}
+
+ul li:nth-child(even) {
+    background-color: #F0F0F0;
+}
+
+.button:active {
+    background-color: #FF5733;
+}
+
+.input-field:focus {
+    border-color: #FF5733;
+}
+
+.myImageClass {
+    width: 400px;
+    height: auto;
+}
