@@ -1,0 +1,79 @@
+<?php include "inc/html-top.php";?>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Marilyn Monroe</h1>
+            <div class="subtitle">An American actress, model, and singer</div>
+        </header>
+        
+        <?php include "inc/nav.php";?>
+
+            <section>
+                <h2><strong>Rising Star</strong></h2>
+                <p>Monroe starred in three movies that were released in 1953 and emerged as a major sex symbol and one of Hollywood's most bankable performers.</p>
+                <h3>Notable Alumni</h3>
+                <ul>
+                    <li>Dangerous Years (1947)</li>
+                    <li>Scudda Hoo! Scudda Hay! (1948)</li>
+                    <li>Ladies of the Chorus (1948)</li>
+                    <li>Love Happy (1949)</li>
+                    <li>A Ticket to Tomahawk (1950)</li>
+                    <li>The Asphalt Jungle (1950)</li>
+                    <li>All About Eve (1950)</li>
+                    <li>The Fireball (1950)</li>
+                </ul>
+
+            </section>
+        </article>
+
+        <aside>
+            <h3><strong>Related Historical Figures</strong></h3>
+            <ul>
+                <li>Elvis Presley</li>
+                <li>Gail Lavin</li>
+                <li>Andy Warhol</li>
+                <li>Madonna</li>
+                <li>Gloria Steninem</li>
+                <li>Molly Haskell</li>
+                <li>Sarah Churchwell</li>
+                <li>Lois Banner</li>
+            </ul>
+        </aside>
+
+        <aside class="sidebar">
+            <h2><strong>Early Life and Career</strong></h2>
+            <p>Marilyn Monroe (/ˈmærəlɪn mənˈroʊ/; born Norma Jeane Mortenson; June 1, 1926 – August 4, 1962) was an American actress, model, and singer. Known for playing comic "blonde bombshell" characters, she became one of the most popular sex symbols of the 1950s and early 1960s, as well as an emblem of the era's sexual revolution. She was a top-billed actress for a decade, and her films grossed $200 million (equivalent to $2 billion in 2022) by the time of her death in 1962.[3] Long after her death, Monroe remains a pop culture icon.[4] In 1999, the American Film Institute ranked her as the sixth-greatest female screen legend from the Golden Age of Hollywood.</p>
+            <ul>
+                <li>The Asphalt Jungle (1950)</li>
+                <li>All About Eve (1950)</li>
+                <li>The Fireball (1950)</li>
+            </ul>
+            <h2>Related Information</h2>
+            <p>Marilyn Monroe was an American actress, comedienne, singer, and model. She became one of the world's most enduring iconic figures and is remembered both for her winsome embodiment of the Hollywood sex symbol and her tragic personal and professional struggles within the film industry. Her life and death are still the subjects of much controversy and speculation.</p>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Marilyn_Monroe#/media/File:MarilynMonroe_-_YankArmyWeekly.jpg">Marilyn Monroe (Actress)</a></li>
+                <li><a href="https://https://en.wikipedia.org/wiki/Marilyn_Monroe#Screen_persona_and_reception/">Marilyn Monroe-Wikipedia</a></li>
+                <li><a href="https://www.onthisday.com/people/marilyn-monroe">File:MarilynMonroe - YankArmyWeekly.jpg</a></li>
+            </ul>
+        </aside>
+
+        <footer>
+            <section>
+                <h2>Citations</h2>
+                <ul class="custom-citations">
+                    <li><a href="https://en.wikipedia.org/wiki/Marilyn_Monroe#/media/File:MarilynMonroe_-_YankArmyWeekly.jpg">Marilyn Monroe (Actress)</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Marilyn_Monroe">Marilyn Monroe-Wikipedia</a>; Wikipeida, 22 September 2023</li>
+                    <li><a href="https://www.onthisday.com/people/marilyn-monroe">File:MarilynMonroe - YankArmyWeekly.jpg</a>; U.S. Army photographer David Conover's shot, 8 January 2015</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Source</h2>
+                <p>From Wikipedia: <a href="https://https://en.wikipedia.org/wiki/Marilyn_Monroe#Screen_persona_and_reception/">Marilyn Monroe-Wikipedia</a>, by Wikipedia.</p>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>
