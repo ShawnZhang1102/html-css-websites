@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 9 - HTML Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+    <form method="post" action="#">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName"><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <br>
+
+        <fieldset>
+            <legend>Marilyn Monroe Questionnaire</legend>
+
+            <br>
+
+            <label><strong>What movie(s) have you watched from her:</label></strong><br>
+
+            <br>
+
+            <input type="checkbox" id="movie1" name="movies" value="Dangerous Years">
+            <label for="movie1">Dangerous Years</label><br>
+
+            <input type="checkbox" id="movie2" name="movies" value="Scudda Hoo! Scudda Hay!">
+            <label for="movie2">Scudda Hoo! Scudda Hay!</label><br>
+
+            <input type="checkbox" id="movie3" name="movies" value="Ladies of the Chorus">
+            <label for="movie3">Ladies of the Chorus</label><br>
+
+            <input type="checkbox" id="movie4" name="movies" value="Love Happy">
+            <label for="movie4">Love Happy</label><br>
+
+            <input type="checkbox" id="movie5" name="movies" value="A Ticket to Tomahawk">
+            <label for="movie5">A Ticket to Tomahawk</label><br>
+
+            <input type="checkbox" id="movie6" name="movies" value="The Asphalt Jungle">
+            <label for="movie6">The Asphalt Jungle</label><br>
+
+            <input type="checkbox" id="movie7" name="movies" value="All About Eve">
+            <label for="movie7">All About Eve</label><br>
+
+            <input type="checkbox" id="movie8" name="movies" value="The Fireball">
+            <label for="movie8">The Fireball</label><br>
+
+            <br>
+
+            <label><strong>What is Marilyn Monroe's gender:</strong></label><br>
+
+            <br>
+
+            <input type="radio" id="gender1" name="gender" value="male">
+            <label for="gender1">Male</label><br>
+
+            <input type="radio" id="gender2" name="gender" value="female">
+            <label for="gender2">Female</label><br>
+
+            <input type="radio" id="gender3" name="gender" value="other">
+            <label for="gender3">Other</label><br>
+
+            <input type="radio" id="gender4" name="gender" value="Idon'tknow">
+            <label for="gender3">Sorry I have no idea</label><br>
+
+            <br>
+
+            <label for="comments"><strong>Tell me some features of Marilyn Monroe:</strong></label><br>
+
+            <br>
+
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+        </fieldset>
+
+        <input type="submit" value="Submit Form">
+    </form>
+
+</body>
+</html>
